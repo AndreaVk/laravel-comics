@@ -5,5 +5,7 @@
 @endsection
 
 @section('pageContent')
-
+<div class="bg-jumbo">
+</div>
+<div class="container"></div>
 @endsection
