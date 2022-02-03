@@ -85,7 +85,7 @@ main .card-container .cm-card p {
   font-size: 12px;
 }
 main .btn {
-  padding: 8px 40px;
+  padding: 9px 55px;
   border: none;
   color: white;
   background: #0282f9;
@@ -93,4 +93,37 @@ main .btn {
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.end-main {
+  background-color: #0282f9;
+  height: 15%;
+  position: relative;
+  z-index: 1;
+  height: 120px;
+}
+.end-main .icon-container {
+  height: 100%;
+}
+.end-main .icon-container .box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 65%;
+  margin: 0 auto;
+}
+.end-main .icon-container .box .icons {
+  display: flex;
+  align-items: center;
+}
+.end-main .icon-container .box .icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+.end-main .icon-container .box .icons span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
 }
